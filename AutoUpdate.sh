@@ -15,7 +15,7 @@ apt upgrade --yes
 echo "System updates were successful :) $(date)"
 
 #Package upgrades
-apt-get full-upgrade
+apt-get full-upgrade --yes
 
 echo "Package updates were successful :) $(date)"
 
